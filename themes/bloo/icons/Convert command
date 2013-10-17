@@ -1,0 +1,3 @@
+Convert icon color with ImageMagick:
+
+convert -background transparent -density 720 default.png -alpha off -fill white -colorize "100%" -alpha on icon.png
